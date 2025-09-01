@@ -1,25 +1,15 @@
 streamlit
-
-# Core LangChain + community
 langchain
 langchain-community
-
-# HuggingFace embeddings
 langchain-huggingface
 sentence-transformers
-
-# Chroma vectorstore + backend
-langchain-chroma
-chromadb==0.5.5   # ✅ explicitly add this (stable version)
-
-# Groq LLM
+chromadb==0.5.5   # ✅ directly use chromadb
 langchain-groq
-
-# Document parsing
 unstructured
 pypdf
 python-docx
 openpyxl
 xlrd
+
 
 
