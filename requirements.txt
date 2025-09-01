@@ -8,8 +8,9 @@ langchain-community
 langchain-huggingface
 sentence-transformers
 
-# Chroma vectorstore
+# Chroma vectorstore + backend
 langchain-chroma
+chromadb==0.5.5   # ✅ explicitly add this (stable version)
 
 # Groq LLM
 langchain-groq
@@ -20,4 +21,5 @@ pypdf
 python-docx
 openpyxl
 xlrd
+
 
