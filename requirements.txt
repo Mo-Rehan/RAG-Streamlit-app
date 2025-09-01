@@ -2,14 +2,18 @@ streamlit
 langchain
 langchain-community
 langchain-huggingface
-sentence-transformers
-chromadb==0.5.5   # ✅ directly use chromadb
 langchain-groq
+sentence-transformers
+chromadb==0.5.5
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
 unstructured
 pypdf
 python-docx
 openpyxl
 xlrd
+
 
 
 
