@@ -1,0 +1,23 @@
+streamlit
+
+# Core LangChain + community
+langchain
+langchain-community
+
+# HuggingFace embeddings
+langchain-huggingface
+sentence-transformers
+
+# Chroma vectorstore
+langchain-chroma
+
+# Groq LLM
+langchain-groq
+
+# Document parsing
+unstructured
+pypdf
+python-docx
+openpyxl
+xlrd
+
