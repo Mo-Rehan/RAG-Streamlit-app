@@ -1,11 +1,24 @@
 streamlit
-langchain
-langchain-community
-langchain-huggingface
-langchain-chroma
-langchain-groq
-sentence-transformers
-unstructured
+
+# LangChain core + integrations
+langchain==0.2.14
+langchain-community==0.2.11
+langchain-huggingface==0.0.3
+langchain-groq==0.1.4
+
+# Vector DB
+chromadb==0.5.5
+
+# HuggingFace embeddings (use MiniLM for CPU)
+sentence-transformers==2.7.0
+
+# ✅ Light PyTorch build (CPU only, stable on Streamlit Cloud)
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Document parsing
+unstructured==0.15.0
 pypdf
 python-docx
 openpyxl
