@@ -81,7 +81,7 @@ st.write(f"📚 Total new chunks: {len(splits)}")
 # 4. Embeddings + Chroma vectorstore
 # ================================
 embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",  # ✅ small, CPU-friendly
+    model_name="sentence-transformers/all-MiniLM-L6-v2",
     model_kwargs={'device': 'cpu'}
 )
 
